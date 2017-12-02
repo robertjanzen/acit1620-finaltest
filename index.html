@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Final Test - Robert Janzen</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+        
+        <!-- My CSS -->
+        <link href="style.css" type="text/css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <div id='navigation'>
+            <button id="postcardbutton" >Postcard</button>
+            <button id="gallerybutton" >Add to Gallery</button>
+        </div>
+        
+        <div id='postcard'>
+            <div id="card" class='item'>
+                <div id="to">To:</div>
+                <div id="from">From:</div>
+                <div id="body">
+                    <div id="bodytext">Default</div>
+                </div>
+            </div>
+            <div id='card_controls'>
+                <input id="cardbgurl" class="textinput" type="text" placeholder="card bg url" />
+                <input id="cardto" class="textinput" type="text" placeholder="card to" />
+                <input id="cardbody" class="textinput" type="text" placeholder="card body" />
+                <input id="cardfrom" class="textinput" type="text" placeholder="card from" />
+            </div>
+            <button id='add'>Add to Gallery</button>
+        </div>
+        
+        <div id="gallery">
+            <div id="gallery_controls">
+                <button id="savelocally">Save Locally</button>
+                <button id="loadlocally">Load Locally</button>
+                <button id="saveonline">Save Online</button>
+                <button id="loadonline">Load Online</button>
+            </div>
+        </div>
+        
+        <!-- My JS -->
+        <script src="js.js"></script>
+    </body>
+</html>

@@ -1,0 +1,209 @@
+#navigation {
+    position:fixed;
+    width:300px;
+    height:35px;
+    left:10px;
+    bottom:5px;
+    display:inline-block;
+    z-index:98888;
+}
+
+#add {
+    position:fixed;
+    width:150px;
+    height:30px;
+    right:1px;
+    bottom:10px;
+}
+
+#postcard {
+    display:block; 
+}
+
+#gallery {
+    display:none;
+}
+
+#gallery_controls {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    width:420px;
+    z-index:9999;
+}
+
+#to {
+    position:absolute;
+    left:30px;
+    top:30px;
+    background-color:rgba(0,0,0,0.5);
+    width:150px;
+    height:30px;
+    text-align:left;
+    color:white;
+    font-size:1.5em;
+}
+
+.to {
+    position:absolute;
+    left:30px;
+    top:30px;
+    background-color:rgba(0,0,0,0.5);
+    width:150px;
+    height:30px;
+    text-align:left;
+    color:white;
+    z-index:51;
+    font-size:0.8em;
+}
+
+#from {
+    position:absolute;
+    right:30px;
+    bottom:10px;
+    background-color:rgba(0,0,0,0.5);
+    width:150px;
+    height:30px;
+    text-align:left;
+    color:white;
+    font-size:1.5em;
+    
+}
+
+.from {
+    position:absolute;
+    right:30px;
+    bottom:10px;
+    background-color:rgba(0,0,0,0.5);
+    width:150px;
+    height:30px;
+    text-align:left;
+    color:white;
+    z-index:50;
+    font-size:0.8em;
+}
+
+#body {
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    text-align:center;
+    background-image: url("img/default.png");
+    width:50%;
+    height:80%;
+    background-position:center;
+    background-size:100%;
+}
+
+.body {
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    text-align:center;
+    background-position:center;
+    background-size:50%;
+    z-index:1;
+    background-repeat: no-repeat;
+}
+
+.item {
+    position:absolute;
+    width:100vw;
+    height:70vh;
+    background-color:rgba(0,0,0,0.25);
+    top:100px;
+}
+/*
+#card_controls {
+    position:fixed;
+    width:760px;
+    display:none;
+    height:30px;
+    text-align:center;
+    left:0px;
+    right:0px;
+    top:400px;
+    margin:auto;
+    background-color:rgba(0,0,0,0.7);
+}
+*/
+
+#cardbgurl {
+    position:fixed;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    width:100px;
+    height:30px;
+    display:none;
+}
+
+#cardto {
+    position:fixed;
+    left:40px;
+    top:100px;
+    width:100px;
+    height:30px;
+    display:none;
+}
+
+#cardbody {
+    position:fixed;
+    width:100px;
+    height:30px;
+    left:0px;
+    right:0px;
+    top:200px;
+    margin:auto;
+    text-align: center;
+    display:none; 
+}
+
+#cardfrom {
+    position:fixed;
+    width:100px;
+    height:30px;
+    right:40px;
+    bottom:200px;
+    display:none;
+}
+
+#bodytext {
+    position:relative;
+    color:black;
+    top:10px;
+    left:10px;
+    font-size:1.2em;
+    display:block;
+    text-align:left;
+    font-weight: 700;
+}
+
+.bodytext {
+    position:absolute;
+    color:black;
+    top:60px;
+    left:130px;
+    font-size:1.2em;
+    display:block;
+    text-align:left;
+    font-weight:300;
+    text-align:center;
+}
+
+.items {
+    position:relative;
+    display:inline-block;
+    width:500px;
+    height:250px;
+    background-color:rgba(0,0,0,0.25);
+}
+
